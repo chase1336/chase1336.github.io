@@ -1,12 +1,129 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chase Hohne Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>
-        yo!
-    </h1>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Chase Hohne</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="hero-image">
+    <video id="heroVideo" style="width: 100%; height: auto; object-fit: cover;" autoplay muted loop>
+      <source src="Galactic_BuzzKill_Intro_portfolio.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-text">
+      <h1>Chase Hohne</h1>
+      <a href="#work" class="hero-button">See My Work</a>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div id="about" class="content fade-in">
+    <h1>About Me</h1>
+    <hr>
+    <div class="about-container reverse">
+      <div class="about-image">
+        <img src="Images/Chase_Fish.jpeg" alt="Chase holding fish">
+      </div>
+      <div class="about-text">
+        <p>Hi! I'm Chase Hohne, a third-year student at Boise State University majoring in Games, Interactive Media, and Mobile (GIMM). I'm passionate about creating interactive games with strong replayability, combining my technical skills in Unity and C# with my love for creating original artwork. I thrive in collaborative environments and enjoy working on team-based projects where creativity and problem-solving come together.</p>
+
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+
+  <div id="work" class="content fade-in">
+    <h2>My Work</h2>
+
+    <!-- First project with text on the left and video on the right -->
+<div class="project">
+  <div class="project-content">
+    <h3> Galactic Buzzkill</h3>
+    <p>Galactic buzzkill is a group project three of my friends and I created our freshman year. it is a time based 2d unity platformer that has built in AR elements to contol gravity. The objective it to solve puzzles and traverse the ship to the escape pod before it explodes.</p>
+  </div>
+  <div class="project-video">
+    <video controls autoplay muted loop style="width: 100%; border-radius: 12px;">
+      <source src="Galactic_BuzzKill_Intro_portfolio.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+    <!-- Second project with text on the right and image on the left -->
+    <div class="project reverse">
+      <div class="project-content">
+        <h3> Stuck heading south</h3>
+        <p>Stuck heading south was the first project/game I created in GIMM.</p>
+      </div>
+      <div class="project-video">
+        <video controls autoplay muted loop style="width: 100%; border-radius: 12px;">
+          <source src="S.H.S._portfolio_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Third project with text on the left and image on the right -->
+    <div class="project">
+      <div class="project-content">
+        <h3>...</h3>
+        <p></p>
+      </div>
+      <div class="project-image">
+        <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=1600&h=600" alt="Portfolio Website" style="width: 100%; border-radius: 12px;">
+      </div>
+    </div>
+
+    <!-- Fourth project with text on the right and image on the left -->
+    <div class="project reverse">
+      <div class="project-content">
+        <h3>Super posistion Comic</h3>
+        <p>...</p>
+      </div>
+      <div class="project-image">
+        <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=1600&h=600" alt="Weather App UI" style="width: 100%; border-radius: 12px;">
+      </div>
+    </div>
+
+    <hr>
+  </div>
+
+  <div id="contact" class="content fade-in">
+  <h2>Contact Me</h2>
+  <p>If you'd like to get in touch, feel free to reach out via email, LinkedIn, or GitHub:</p>
+  
+  <div class="contact-info">
+    <p>Email: <a href="mailto:chasehohne@u.boisestate.edu">chasehohne@u.boisestate.edu</a></p>
+    
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+      <a href="https://github.com/your-profile" target="_blank" rel="noopener" class="social-link">GitHub</a>
+    </div>
+  </div>
+  
+  <hr>
+</div>
+
+  
+  
+
+  <script src="index.js"></script>
 </body>
-
-
 </html>
