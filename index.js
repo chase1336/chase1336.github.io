@@ -2,7 +2,7 @@ const heroVideo = document.getElementById("heroVideo");  // The video element
 
 // Array of video URLs to rotate through
 const videoUrls = [
-  "Galactic_BuzzKill_Intro_portfolio.mp4",  // First video
+  "spaceship_.mp4",  // First video
   // Add future videos here:
   // "futureVideo2.mp4", 
   // "futureVideo3.mp4"
